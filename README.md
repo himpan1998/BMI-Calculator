@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# BMI Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A Body Mass Index (BMI) Calculator built using React.js and useMemo for optimized performance.
 
-## Available Scripts
+# Features :
 
-In the project directory, you can run:
+- Calculate BMI based on user input (height and weight)
+  Display BMI category (Underweight, Normal weight, Overweight, Obesity)
 
-### `npm start`
+- Responsive design for mobile and desktop
+  Optimized calculation using useMemo for performance improvement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Display BMI category (Underweight, Normal weight, Overweight, Obesity) with dynamic color changes:
+  Underweight: Blue
+  Normal weight: Green
+  Overweight: Orange
+  Obesity: Red
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Installation:
 
-### `npm test`
+- Clone the repository:git clone https://github.com/yourusername/bmi-calculator.git
+- Navigate to the project directory: cd bmi-calculator
+- Install the dependencies: npm install
+- Start the development server: npm start
+  Open the application in your browser: http://localhost:3000
+- Build the Project : npm build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Slide the height and weight to using input slider to calculate BMI.
+- View the calculated BMI and corresponding category.
 
-### `npm run build`
+# Project Structure :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- public/: Public assets and the main HTML file.
+- src/: Contains all the React components and styles.
+- App.js: Main component that renders the BMI calculator.
+- index.js: Entry point of the application.
+- App.css: Styling for the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Implementation Details :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Steps:
 
-### `npm run eject`
+Setup React Project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- npx create-rect-app bmi-calculator
+- install all dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Create Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- here app.js is functional components used for user input
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Implement BMI Calculation:
 
-## Learn More
+- Use useState to manage height, weight, and BMI state.
+- Implement a function to calculate BMI based on height and weight.
+- Use useMemo to optimize the BMI calculation, ensuring it only recalculates when the input values change.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Add Styles:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use CSS to style the components for a clean and responsive design (app.css).
 
-### Code Splitting
+# Test and Debug:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Test the application thoroughly to ensure accurate BMI calculations and correct category display.
