@@ -18,7 +18,7 @@
 
 # Installation:
 
-- Clone the repository:git clone https://github.com/yourusername/bmi-calculator.git
+- Clone the repository:git clone https://github.com/himpan1998/BMI-Calculator.git
 - Navigate to the project directory: cd bmi-calculator
 - Install the dependencies: npm install
 - Start the development server: npm start
