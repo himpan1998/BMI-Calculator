@@ -16,6 +16,9 @@
   Overweight: Orange
   Obesity: Red
 
+  # To See Demo:
+  Link: https://bmicalculatorhimanshu.netlify.app/
+
 # Installation:
 
 - Clone the repository:git clone https://github.com/himpan1998/BMI-Calculator.git
